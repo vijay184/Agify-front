@@ -1,0 +1,198 @@
+.hospitalHeader {
+  /* border: 1px solid black; */
+  height: 100px;
+  background-color: transparent;
+  /* justify-content: center; */
+  width: 100%;
+}
+
+.padded-hospitalHeader {
+  /* border: 1px solid black; */
+  display: flex;
+  flex-direction: row;
+  margin: 8px;
+  align-items: center;
+}
+
+.h-1-wrapper:hover{
+  cursor: pointer;
+}
+.h-1-wrapper {
+  /* border: 1px solid red; */
+  margin-left: 100px;
+}
+
+p.text-wrapper {
+  margin-top: 9px;
+  color: #27272b;
+  font-family: "Raleway-Regular", Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.h-2-wrapper {
+  /* border: 1px solid blue; */
+  height: 38px;
+  width: 220px;
+  margin-left: 650px;
+}
+
+.h-3-wrapper {
+  font-size: 17px;
+  border-radius: 20px;
+  border: 1px solid black;
+  margin-left: 20px;
+  height: 37px;
+  width: 123px;
+  background: transparent;
+}
+
+.h-3-wrapper:hover{
+  background-color: #4caf50;
+  border: none;
+  color: white;
+}
+
+.h-1-wrapper .text-wrapper {
+  color: #2bb56a;
+  font-family: "Raleway-Bold", Helvetica;
+  font-size: 45px;
+  font-weight: 700;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.p-wrapper1 {
+  border: 0px none;
+  height: 28px;
+  width: 240px;
+}
+
+.hospitalContent {
+  /* border: 1px solid green; */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.hdiv1 {
+  display: flex;
+  flex-direction: column;
+  margin-left: 60px;
+  /* border: 1px solid black; */
+  height: 535px;
+  width: 500px;
+}
+
+.hdiv2 {
+  margin-left: -250px;
+  /* border: 1px solid black; */
+  height: 500px;
+  width: 578px;
+}
+
+.subDiv1 .text-wrapper { 
+  margin-top: 35px;
+    color: #303037;
+    font-family: "Raleway-ExtraBold", Helvetica;
+    font-size: 30px;
+    font-weight: 800;
+    height: 65px;
+    width: 470px;
+
+}
+
+.entryform1{
+  width: 100px;
+}
+
+.formdata1{
+  margin-top: 30px;
+  background-color: #ffffff;
+  height: 67px;
+  position: relative;
+  width: 470px;
+}
+
+.text1-wrapper {
+  color: #27272b;
+  font-family: "Raleway-Regular", Helvetica;
+  font-size: 20px;
+  font-weight: 400;
+  position: absolute;
+} 
+
+.input-wrapper{
+  border-style: dotted;
+  margin-top: 30px;
+  width: 500px;
+  height: 40px;
+  border-radius: 10px;
+}
+
+#btnSearch9 {
+  margin-top: 45px;
+  background-color: #4caf50;
+  font-size: 20px;
+  border-radius: 10px;
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  cursor: pointer;
+  width: 180px;
+}
+
+#btnSearch9:hover {
+  background-color: #45a049;
+}
+
+.subDiv3{
+  margin-top: 20px;
+  width: 370px;
+}
+
+.subDiv3 .text2-wrapper{
+  font-size: 18px;
+  font-family: "Raleway-Regular", Helvetica;
+}
+
+.subDiv4{
+  margin-top: 30px;
+  height: 60%;
+  width: 100%;
+}
+
+.subDiv5{
+  margin-top: -23px;
+  height: 60%;
+  width: 100%;
+}  
+
+.img1{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.img2{ 
+  width: 100%;
+  height: 100%; /* Adjust the height of the reflection */
+  background-image: linear-gradient(to top, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0));
+  transform: scaleY(-1);
+  opacity: 0.5; /* Adjust the opacity of the reflection */
+  pointer-events: none;
+}
+
+.link{
+  margin-left: 10px;
+  color: black;
+  font-weight: 800;
+  font-size: 22px;
+  text-decoration: none;
+}
+
+.link:hover{
+color: #2bb56a;
+}

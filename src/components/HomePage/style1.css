@@ -1,0 +1,201 @@
+.hospitalHeader {
+  /* border: 1px solid black; */
+  height: 96px;
+  background-color: transparent;
+  /* justify-content: center; */
+  width: 100%;
+}
+
+.padded-hospitalHeader {
+  /* border: 1px solid black; */
+  display: flex;
+  flex-direction: row;
+  margin: 8px;
+  align-items: center;
+}
+
+.h-1-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-left: 90px;
+}
+
+p.text-wrapper {
+  margin-top: 9px;
+  color: #27272b;
+  font-family: "Raleway-Regular", Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.h-2-wrapper {
+  /* border: 1px solid blue; */
+  height: 38px;
+  width: 220px;
+  margin-left: 650px;
+}
+
+.h-1-wrapper:hover{
+  cursor: pointer;
+}
+
+.h-3-wrapper {
+  font-size: 17px;
+  border-radius: 20px;
+  /* border: 1px solid black; */
+  margin-left: 15px;
+  height: 37px;
+  width: 123px;
+  background: transparent;
+}
+
+.h-1-wrapper .text-wrapper {
+  margin-left: 10px;
+    color: #2bb56a;
+    font-family: "Raleway-Bold", Helvetica;
+    font-size: 40px;
+    font-weight: 700;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+}
+
+.p-wrapper {
+  border: 0px none;
+  height: 28px;
+  width: 221px;
+}
+
+.homelayer2{
+  background-color: #ffffff;
+  border-radius: 20px;
+  box-shadow: 0px 0px 12px #00000017;
+  height: 195px;
+  left: 123px;
+  overflow: hidden;
+  position: absolute;
+  top: 203px;
+  width: 1184px;
+}
+.howner{
+    color: #303037;
+    font-family: "Raleway-SemiBold", Helvetica;
+    font-size: 28px;
+    font-weight: 600;
+    height: 36px;
+    left: 370px;
+    letter-spacing: 0;
+    line-height: 36px;
+    position: absolute;
+    top: 80px;
+    white-space: nowrap;
+
+}
+
+.hownerbtn{
+  font-family: "Raleway-SemiBold", Helvetica;
+  font-size: 16px;
+  font-weight: 600;
+  height: 48px;
+  left: 954px;
+  overflow: hidden;
+  position: absolute;
+  top: 74px; 
+  background-color: #4caf50;
+  border-radius: 8px;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  width: 150px;
+}
+
+.hownerbtn:hover {
+  background-color: #45a049;
+}
+
+.hownerbtntext{
+  color: #ffffff;
+    font-family: "Raleway-SemiBold", Helvetica;
+    font-size: 16px;
+    font-weight: 600;
+    left: 41px; 
+    letter-spacing: 0;
+    line-height: 28px;
+    position: absolute;
+    top: 9px;
+    right: 0;
+    white-space: nowrap;
+}
+
+.imgelement{
+  border-radius: 8px;
+  height: 168px;
+  left: 52px;
+  position: absolute;
+  top: 14px;
+  width: 185px;
+}
+
+.homelayer3{
+    background-color: #ffffff;
+    border-radius: 20px;
+    box-shadow: 0px 0px 12px #00000017;
+    height: 195px;
+    left: 123px;
+    overflow: hidden;
+    position: absolute;
+    top: 422px;
+    width: 1184px;
+}
+
+.hospt{
+  color: #303037;
+    font-family: "Raleway-SemiBold", Helvetica;
+    font-size: 28px;
+    font-weight: 600;
+    height: 36px;
+    left: 330px;
+    letter-spacing: 0;
+    line-height: 36px;
+    position: absolute;
+    top: 80px;
+    white-space: nowrap;
+
+}
+.hosptext{
+  color: #27272b;
+  font-family: "Raleway-Regular", Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  left: 336px;
+  letter-spacing: 0;
+  line-height: 28px;
+  position: absolute;
+  top: 114px;
+  white-space: nowrap;
+}
+
+.hosptbtn{
+  font-family: "Raleway-SemiBold", Helvetica;
+  font-size: 16px;
+  font-weight: 600;
+  height: 48px;
+  left: 954px;
+  overflow: hidden;
+  position: absolute;
+  top: 74px; 
+  background-color: #4caf50;
+  border-radius: 8px;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  width: 150px;
+}
+
+.hosptbtn:hover {
+  background-color: #45a049;
+}

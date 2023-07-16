@@ -1,0 +1,141 @@
+.hospitalHeader {
+    height: 96px;
+    background-color: transparent;
+    /* justify-content: center; */
+    width: 100%;
+  }
+  
+  .padded-hospitalHeader {
+    display: flex;
+    flex-direction: row;
+    margin: 8px;
+    align-items: center;
+  }
+  
+  .h-1-wrapper {
+    margin-left: 90px;
+  }
+  
+  p.text-wrapper {
+    margin-top: 9px;
+    color: #27272b;
+    font-family: "Raleway-Regular", Helvetica;
+    font-size: 18px;
+    font-weight: 400;
+    width: 260px;
+  }
+  
+  .h-2-wrapper {
+    height: 38px;
+    width: 280px;
+    margin-left: 800px;
+  }
+  
+  .h-3-wrapper {
+    font-size: 20px;
+    border-radius: 20px;
+    margin-left: 20px;
+    height: 37px;
+    width: 123px;
+    background: transparent;
+  }
+  
+  .h-1-wrapper .text-wrapper {
+    color: #2bb56a;
+    font-family: "Raleway-Bold", Helvetica;
+    font-size: 47px;
+    font-weight: 700;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .p-wrapper {
+    border: 0px none;
+    height: 28px;
+    width: 221px;
+  }
+
+  .skeleton-container{
+    display: flex;
+    flex-direction: row;
+    background-color: #f2f2f2;
+    height: 150px;
+    width: 400px;
+    padding: 10px;
+    animation: skeleton-loading 1s infinite alternate;
+    margin-left: 100px;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+    background-color: #ffffff;
+    border-radius: 20px;
+    box-shadow: 0px 0px 15px #00000017;
+    overflow: hidden;
+  }
+
+  @keyframes skeleton-loading{
+    from{
+      opacity:0.5;
+    }
+    to{
+      opacity:1;
+    }
+  }
+
+  .skeleton-image{
+    border-radius: 10px;
+    width: 30%;
+    height: 95%;
+    background-color: #d9d9d9;
+  }
+  .right-part-card{
+    flex: 1;
+    margin-top: 10px;
+  }
+
+  .skeleton-text{
+    border-radius: 10px;
+    background-color: #d9d9d9;
+    width:90%;
+    margin-bottom: 10px;
+    height: 30px;
+  }
+
+  .pending-card-btn{
+    display: flex;
+    flex-direction: row;
+  }
+
+  .skeleton-btn{
+    border-radius: 10px;
+    background-color: #d9d9d9;
+    height: 35px;
+    width: 110px;
+  }
+
+  .card-container-pending-request{
+    margin-top: 50px;
+    display: grid;
+    grid-gap: 6rem;
+    grid-template-columns: 380px 380px 380px;
+    grid-template-rows: 155px 155px;
+    width: 100%;
+  }
+
+#pheader{
+    font-size: 2rem;
+    font-family: "Raleway-Bold", Helvetica;
+    margin-left: 650px;
+  }
+
+ #nopending{
+  margin-top: 200px;
+  margin-left: 500px;
+  font-size: 30px;
+  font-family: "Raleway-Bold", Helvetica;
+ } 
+
+ .h-1-wrapper:hover{
+  cursor: pointer;
+}
